@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Instagram</title>
+        <link rel = "stylesheet" href = "styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    </head>
+    <body>
+        <div id = "page">
+            <div id = "left-pane" class = "pane">
+                <div id = "instagram-text-logo">Instagram</div>
+                <div id = "home-btn"><i class = "fa-solid fa-home"></i>Home</div>
+                <div id = "search-btn"><i class = "fa-solid fa-search"></i>Search</div>
+                <div id = "explore-btn"><i class = "fa-solid fa-compass"></i>Explore</div>
+                <div id = "reels-btn"><i class = "fa-solid fa-film"></i>Reels</div>
+                <div id = "messages-btn"><i class = "fa-solid fa-paper-plane"></i>Messages</div>
+                <div id = "notifications-btn"><i class = "fa-solid fa-heart"></i>Notifications</div>
+                <div id = "create-btn"><i class = "fa-solid fa-plus-square"></i>Create</div>
+                <div id = "profile-btn"><i class = "fa-solid fa-user"></i>Profile</div>
+                <div id = "more-btn"><i class = "fa-solid fa-bars"></i>More</div>
+            </div>
+            <div id = "middle-pane" class  = "pane">
+              
+                <div id = "stories">
+                    <!-- 
+                    <div class="story">
+                        <div class="story-pfp-container">
+                            <p class="story-pfp></p>
+                        </div>
+                        <div class = "story-account-handle"></div>
+                    </div>
+                    -->
+                </div>
+                <div id = "posts">
+                    <div class="post">
+                        <div class="post-details">
+                            <p class = "post-creator-handle"></p>uct<p class = "time-since-posted">1d</p>
+                        </div>
+                        <div class = "post-content">
+                        </div>
+                        <div class="post-buttons">
+                            <div class="like-btn"><i class = "fa-solid fa-heart"></i></div>
+                            <div class="comment-btn"><i class = "fa-solid fa-comment"></i></div>
+                            <div class="forward-btn"><i class = "fa-solid fa-paper-plane"></i></div>
+
+                            <div class="save-btn"><i class = "fa-solid fa-bookmark"></i></div>
+                        </div>
+
+                        <div class = "post-stats">
+                            <p class = "likes" >889 likes</p>
+                            <div class="caption-container">
+                                <p class = "post-creator-handle">uct</p><p class = "post-caption">what do you mean?</p>
+                            </div>
+                            <div class = "comments-container">
+                                <p class = "view-comments">View all n comments</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id = "right-pane" class = "pane">
+                <div id="switch-account-container">
+                    <div class="account-pfp-container">
+                        <p class = "account-pfp">FI</p>
+                    </div>
+                    <div class="account-handle-and-name">
+                        <p class="account-handle">freeform.inx</p>
+                        <p class="account-name">Kgosi</p>
+                    </div>
+                    <div id = "switch-btn-container">Switch</div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src = "stories.js"></script>
+    <script src = "posts.js"></script>
+
+</html>

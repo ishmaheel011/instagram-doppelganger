@@ -1,0 +1,144 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 11pt;
+}
+
+#page {
+    display: flex;
+}
+
+.pane{
+}
+
+/* left pane CSS */
+
+#left-pane {
+    width: 15%;
+    height: 576px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#left-pane div[id = 'instagram-text-logo']{
+    padding: 20px;
+    padding-left: 15px;
+    font-size: 15pt;
+}
+
+#left-pane div{
+    padding: 15px;
+}
+
+#left-pane div i{
+    padding-right: 10px;
+}
+
+
+/* middle pane CSS */
+
+#middle-pane{
+    width: 65%;
+    position: absolute;
+    left: 15%;
+}
+
+#stories{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.story-pfp{
+    width: 30pt;
+    height: 30pt;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: 5px;
+    justify-items:center;
+    justify-self: center;
+}
+
+.story {
+    min-width: 60px;
+    min-height: 70px;
+    max-width: 60px;
+    max-height: 70px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.story *{
+}
+
+.post-details {
+    display: flex;
+    justify-self: end;
+}
+
+
+.post-details p{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.post-content{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90pt;
+    justify-content: center;
+    overflow: clip;
+}
+
+
+.post{
+    margin-bottom: 20px;
+    border-bottom: 1pt solid black;
+    padding-bottom: 20px;
+}
+
+/* right pane CSS*/
+
+#right-pane{
+    width: 20%;
+    position: fixed;
+    left: 80%;
+}
+
+#switch-account-container{
+    display: flex;
+}
+
+#switch-account-container *{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.account-pfp{
+    background-color: deepskyblue;
+    border-radius: 20px;
+    flex: 1;
+    padding: 7px;
+}
+
+.account-handle-and-name{
+    flex: 4;
+}
+
+#switch-btn-container{
+    flex: 2;
+    color: blue;
+}
+
+i:hover{
+    color: red;
+}
+
+i {
+    justify-content: center;
+}
